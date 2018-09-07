@@ -39,7 +39,9 @@ def kesha_maker(string_array)
 end
 
 def find_a(string)
-  string.select {|word| word[0] = "a"}
+  string.select do |word|
+    if word[0] = "a"
+    end
 end
 
 def sum_array(integer_array)
