@@ -54,6 +54,8 @@ def add_s(word_array)
       element
     elsif index == 2
       element + "s"
+    elsif index == 3
+      element + "s"
     end
   end
 end
