@@ -34,8 +34,11 @@ def reverse_array(string_array)
   string_array.reverse
 end
 
+def kesha_maker(string_array)
+  string_array.each do {|string| string[2] = "$"}
+end
+
 def find_a(string)
-  string[2] = $
 end
 
 def sum_array(integer_array)
