@@ -47,4 +47,5 @@ def sum_array(integer_array)
 end
 
 def add_s(word_array)
+  word_array.each_with_index.collect {|element, index|}
 end
