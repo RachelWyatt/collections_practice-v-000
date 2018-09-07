@@ -35,6 +35,7 @@ def reverse_array(string_array)
 end
 
 def find_a(string)
+  string[2] = $
 end
 
 def sum_array(integer_array)
