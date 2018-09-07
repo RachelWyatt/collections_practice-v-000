@@ -31,6 +31,7 @@ def swap_elements(array)
 end
 
 def reverse_array(string_array)
+  string_array.reverse
 end
 
 def find_a(string)
