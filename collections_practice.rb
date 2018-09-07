@@ -40,8 +40,7 @@ end
 
 def find_a(string)
   string.select do |word|
-    if word[0] = "a"
-    end
+    word[0] = "a"
 end
 
 def sum_array(integer_array)
