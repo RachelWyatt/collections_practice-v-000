@@ -8,9 +8,10 @@ def sort_array_desc(integers)
       0
     elsif a < b
       1
-    elsif a > b 
+    elsif a > b
       -1
     end
+  end
 end
 
 def sort_array_char_count(string_array)
