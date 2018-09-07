@@ -48,6 +48,6 @@ end
 
 def add_s(word_array)
   word_array.each_with_index.collect do |element, index|
-    element + "s"
+    element[0] + "s"
   end
 end
